@@ -1,0 +1,212 @@
+4) Архив и офисные пропсы
+
+Архивный стеллаж
+Искать: archive shelf, metal shelf, storage rack
+Где: Sketchfab
+
+Картонная коробка
+Искать: cardboard box, archive box, storage box
+Где: Sketchfab
+
+Папка для документов
+Искать: file folder, document folder, office folder
+Где: Sketchfab
+
+Стопка бумаг
+Искать: paper stack, documents, office papers
+Где: Sketchfab
+
+Ноутбук
+Искать: laptop, old laptop, office laptop
+Где: Sketchfab
+
+Монитор
+Искать: computer monitor, old monitor
+Где: Sketchfab
+
+Клавиатура
+Искать: keyboard, computer keyboard
+Где: Sketchfab
+
+Системный блок / ПК
+Искать: desktop computer, pc tower
+Где: Sketchfab
+
+Принтер
+Искать: printer, office printer
+Где: Sketchfab
+
+Серверная стойка
+Искать: server rack, rack server, server cabinet
+Где: Sketchfab
+
+Кабели для серверной
+Искать: cables, network cables, industrial cables
+Где: Sketchfab
+
+5) Подвал и техпомещения
+
+Генератор
+Искать: generator, diesel generator, portable generator
+Где: Sketchfab
+
+Трубы
+Искать: industrial pipes, metal pipes, pipe pack
+Где: Sketchfab
+
+Вентиляция
+Искать: ventilation duct, air duct, metal vent
+Где: Sketchfab
+
+Электрический шкаф
+Искать: electrical cabinet, control panel, power cabinet
+Где: Sketchfab
+
+Красная аварийная лампа
+Искать: emergency light, industrial warning light
+Где: Sketchfab
+
+Решётка / люк
+Искать: floor grate, metal grate, maintenance hatch
+Где: Sketchfab
+
+Тележка / промышленный стол
+Искать: industrial cart, utility cart, metal work table
+Где: Sketchfab
+
+6) Причал и внешние объекты
+
+Деревянный причал
+Искать: wooden pier, dock, small pier
+Где: Sketchfab
+
+Небольшая лодка
+Искать: small boat, motor boat, fishing boat
+Где: Sketchfab
+
+Швартовые столбики
+Искать: bollard, dock bollard
+Где: Sketchfab
+
+Бочка
+Искать: barrel, metal barrel, rusty barrel
+Где: Sketchfab
+
+Спасательный круг / морской декор
+Искать: lifebuoy, rope coil, dock props
+Где: Sketchfab
+
+7) Улики и интерактивные предметы
+
+Записка
+Искать: paper note, note paper, letter
+Где: Sketchfab, ambientCG для бумаги
+
+Фотография
+Искать: photo print, photo paper, polaroid
+Где: Sketchfab
+
+Ключ
+Искать: key, old key, metal key
+Где: Sketchfab
+
+Ключ-карта / пропуск
+Искать: key card, access card, security card
+Где: Sketchfab
+
+Флешка
+Искать: usb flash drive, usb stick
+Где: Sketchfab
+
+Диктофон
+Искать: voice recorder, dictaphone, audio recorder
+Где: Sketchfab
+
+Камера наблюдения
+Искать: security camera, cctv camera
+Где: Sketchfab
+
+Кодовая панель
+Искать: keypad lock, numeric keypad, security keypad
+Где: Sketchfab
+
+Сейф
+Искать: safe, wall safe, office safe
+Где: Sketchfab
+
+Выключатель
+Искать: light switch, wall switch
+Где: Sketchfab
+
+Кнопка тревоги / кнопка питания
+Искать: push button, emergency button, power button panel
+Где: Sketchfab
+
+8) Враг
+
+Humanoid character
+Искать: humanoid character, male character, horror npc, guard character
+Где: Unity Asset Store, Sketchfab
+
+Альтернатива — просто силуэтный NPC
+Искать: low poly male character, simple npc character
+Где: Unity Asset Store
+9) Анимации для врага
+
+Idle
+Искать: idle animation
+
+Walk
+Искать: walk animation
+
+Run
+Искать: run animation
+
+Attack / grab
+Искать: attack animation, grab animation
+
+Turn / alert
+Искать: turn animation, alert animation
+
+Где: Mixamo
+Именно для такого FSM-врага из вашего GDD это самый быстрый путь.
+
+Какие текстуры точно нужны
+
+Даже если часть моделей уже с материалами, отдельно вам всё равно понадобятся PBR-текстуры. Poly Haven и ambientCG как раз под это подходят: у них есть каталоги textures, bark, ground, HDRI и общий поиск по материалам.
+
+Ищи такие запросы:
+
+beach sand pbr
+
+dirt ground pbr
+
+mud ground pbr
+
+old wood pbr
+
+weathered wood pbr
+
+concrete wall pbr
+
+old plaster pbr
+
+cracked paint pbr
+
+rusty metal pbr
+
+dirty metal pbr
+
+paper pbr
+
+mold wall pbr
+
+grunge decal
+
+blood decal
+
+footprint decal
+
+foggy hdri
+
+cloudy sky hdri
