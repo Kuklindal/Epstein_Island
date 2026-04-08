@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InteractionSystem : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class InteractionSystem : MonoBehaviour
     public LayerMask interactableLayer;
 
     public GameObject interactionPrompt;
+    public Text promptText;
 
     void Update()
     {
@@ -16,25 +18,23 @@ public class InteractionSystem : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, interactionDistance, interactableLayer))
         {
-            PickupItem pickup = hit.collider.GetComponent<PickupItem>();
+            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
 
-            if (pickup != null)
+            if (interactable != null)
             {
                 interactionPrompt.SetActive(true);
 
+                promptText.text = interactable.GetPromptText();
+
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    pickup.Pickup();
+                    interactable.Interact();
                 }
-            }
-            else
-            {
-                interactionPrompt.SetActive(false);
+
+                return;
             }
         }
-        else
-        {
-            interactionPrompt.SetActive(false);
-        }
+
+        interactionPrompt.SetActive(false);
     }
 }
