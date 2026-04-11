@@ -8,8 +8,8 @@ public class FlashlightSystem : MonoBehaviour
     public AudioClip toggleSound;
     public float maxIntensity = 8f;
     public float minIntensity = 2f;
-
     private bool isOn = true;
+    public bool IsOn => isOn;
 
     void Update()
     {

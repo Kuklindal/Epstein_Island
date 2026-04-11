@@ -19,14 +19,42 @@ public class EnemyFSM : MonoBehaviour
 
     private NavMeshAgent agent;
 
+    public Transform player;
+    public float detectionRange = 15f;
+
+    private float lostTimer;
+    public float lostTime = 2f;
+
+    public float viewAngle = 90f;
+
+    public float flashlightBonusRange = 8f;
+    private FlashlightSystem flashlight;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         currentState = EnemyState.Patrol;
+        flashlight = FindObjectOfType<FlashlightSystem>();
     }
 
     void Update()
     {
+        float distance = Vector3.Distance(transform.position, player.position);
+
+        if (CanSeePlayer())
+        {
+          currentState = EnemyState.Chase;
+          lostTimer = 0f;
+        }
+        else
+        {
+          lostTimer += Time.deltaTime;
+
+          if (lostTimer > lostTime)
+          {
+            currentState = EnemyState.Patrol;
+          }
+        }   
         StateMachine();
     }
 
@@ -75,7 +103,38 @@ public class EnemyFSM : MonoBehaviour
 
     void ChaseState()
     {
+      agent.SetDestination(player.position);
 
+      Debug.Log("Chasing player");
+    }
+
+    bool CanSeePlayer()
+    {
+    Vector3 directionToPlayer = (player.position - transform.position).normalized;
+    Vector3 dirToEnemy = (transform.position - player.position).normalized;
+    float dot = Vector3.Dot(player.forward, dirToEnemy);
+
+    float angle = Vector3.Angle(transform.forward, directionToPlayer);
+
+    float currentRange = detectionRange;
+
+    // если фонарик включен → увеличиваем дальность
+    if (flashlight != null && flashlight.IsOn && dot > 0.7f)
+    {
+        currentRange += flashlightBonusRange;
+    }
+
+    if (angle < viewAngle / 2f)
+    {
+        float distance = Vector3.Distance(transform.position, player.position);
+
+        if (distance < currentRange)
+        {
+            return true;
+        }
+    }
+
+    return false;
     }
 
     void AttackState()

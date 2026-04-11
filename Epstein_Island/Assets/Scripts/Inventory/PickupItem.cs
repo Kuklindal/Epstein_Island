@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PickupItem : MonoBehaviour
+public class PickupItem : MonoBehaviour, IInteractable
 {
     public ItemData item;
 
@@ -11,10 +11,14 @@ public class PickupItem : MonoBehaviour
         inventory = FindObjectOfType<InventorySystem>();
     }
 
-    public void Pickup()
+    public void Interact()
     {
         inventory.AddItem(item);
-
         Destroy(gameObject);
+    }
+
+    public string GetPromptText()
+    {
+        return "Pick up " + item.itemName;
     }
 }
