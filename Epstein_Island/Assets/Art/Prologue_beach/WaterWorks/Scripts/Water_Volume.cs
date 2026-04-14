@@ -37,7 +37,7 @@ public class Water_Volume : ScriptableRendererFeature
         // You don't have to call ScriptableRenderContext.submit, the render pipeline will call it at specific points in the pipeline.
         public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
         {
-            if(renderingData.cameraData.cameraType != CameraType.Reflection)
+            if (renderingData.cameraData.cameraType != CameraType.Reflection)
             {
                 CommandBuffer commandBuffer = CommandBufferPool.Get();
 
@@ -70,7 +70,7 @@ public class Water_Volume : ScriptableRendererFeature
 
     public override void Create()
     {
-        if(settings.material == null)
+        if (settings.material == null)
         {
             settings.material = (Material)Resources.Load("Water_Volume");
         }
@@ -85,7 +85,7 @@ public class Water_Volume : ScriptableRendererFeature
     // Here you can inject one or multiple render passes in the renderer.
     // This method is called when setting up the renderer once per-camera.
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
-    {       
+    {
         m_ScriptablePass.source = renderer.cameraColorTarget;
         renderer.EnqueuePass(m_ScriptablePass);
     }

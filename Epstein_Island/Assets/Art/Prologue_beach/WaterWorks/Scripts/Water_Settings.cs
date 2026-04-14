@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteAlways]
@@ -10,7 +8,7 @@ public class Water_Settings : MonoBehaviour
 
     void Update()
     {
-        if(waterVolume == null)
+        if (waterVolume == null)
         {
             waterVolume = (Material)Resources.Load("Water_Volume");
         }

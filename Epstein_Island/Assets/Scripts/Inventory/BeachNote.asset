@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: BeachNote
   m_EditorClassIdentifier: 
   evidenceID: 
-  evidenceName: Note
+  evidenceName: "\u0417\u0430\u043F\u0438\u0441\u043A\u0430"
   type: 0
+  description: 

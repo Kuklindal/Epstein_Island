@@ -1,36 +1,39 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class EvidenceSystem : MonoBehaviour
 {
     public List<EvidenceData> collectedEvidence = new List<EvidenceData>();
 
-    private QuestManager questManager;
-
     public int requiredEvidence = 1;
-
-    void Start()
-    {
-       questManager = FindObjectOfType<QuestManager>();
-    }
 
     public void AddEvidence(EvidenceData evidence)
     {
-    if (!collectedEvidence.Contains(evidence))
-    {
-        collectedEvidence.Add(evidence);
-
-        Debug.Log("Evidence collected: " + evidence.evidenceName);
-
-        if (evidence.type == EvidenceType.Main)
+        Debug.Log("AddEvidence called");
+        if (evidence == null)
         {
-            questManager.SetObjective("Find more evidence");
+            Debug.LogError("Evidence is NULL!");
+            return;
         }
 
-        if (collectedEvidence.Count >= requiredEvidence)
+        if (!collectedEvidence.Contains(evidence))
         {
-            Debug.Log("All evidence collected!");
+            collectedEvidence.Add(evidence);
+
+            Debug.Log("Evidence collected: " + evidence.evidenceName);
+
+            // 🔥 УВЕДОМЛЕНИЕ
+            UIManager.instance.ShowMessage("Улика добавлена: " + evidence.evidenceName);
+
+            // 🔥 ОБНОВЛЯЕМ UI СПИСКА УЛИК
+            EvidenceUI ui = FindObjectOfType<EvidenceUI>();
+            if (ui != null)
+            {
+                ui.UpdateUI();
+            }
+            ObjectiveSystem.instance.CompleteObjective("Прочитать записку");
+
         }
+        else { Debug.Log("треш"); }
     }
-    } 
 }

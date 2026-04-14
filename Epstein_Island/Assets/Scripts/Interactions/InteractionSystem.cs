@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class InteractionSystem : MonoBehaviour
@@ -8,9 +8,14 @@ public class InteractionSystem : MonoBehaviour
 
     public GameObject interactionPrompt;
     public Text promptText;
-
+    Highlightable currentHighlight;
     void Update()
     {
+        if (Note.isUIOpen)
+        {
+            interactionPrompt.SetActive(false);
+            return;
+        }
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
@@ -18,7 +23,20 @@ public class InteractionSystem : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, interactionDistance, interactableLayer))
         {
-            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+            Highlightable highlight = hit.collider.GetComponentInParent<Highlightable>();
+
+            if (highlight != null)
+            {
+                if (currentHighlight != highlight)
+                {
+                    if (currentHighlight != null)
+                        currentHighlight.UnHighlight();
+
+                    highlight.Highlight();
+                    currentHighlight = highlight;
+                }
+            }
+            IInteractable interactable = hit.collider.GetComponentInParent<IInteractable>();
 
             if (interactable != null)
             {
@@ -32,6 +50,14 @@ public class InteractionSystem : MonoBehaviour
                 }
 
                 return;
+            }
+        }
+        else
+        {
+            if (currentHighlight != null)
+            {
+                currentHighlight.UnHighlight();
+                currentHighlight = null;
             }
         }
 

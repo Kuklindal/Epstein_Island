@@ -8,10 +8,10 @@ public class QuestManager : MonoBehaviour
 
     public void SetObjective(string newObjective)
     {
-    currentObjective = newObjective;
+        currentObjective = newObjective;
 
-    objectiveText.text = currentObjective;
+        objectiveText.text = currentObjective;
 
-    Debug.Log("New Objective: " + currentObjective);
+        Debug.Log("New Objective: " + currentObjective);
     }
 }
