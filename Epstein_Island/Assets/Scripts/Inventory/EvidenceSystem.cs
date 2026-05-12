@@ -22,8 +22,6 @@ public class EvidenceSystem : MonoBehaviour
 
             Debug.Log("Evidence collected: " + evidence.evidenceName);
 
-            // 🔥 УВЕДОМЛЕНИЕ
-            UIManager.instance.ShowMessage("Улика добавлена: " + evidence.evidenceName);
 
             // 🔥 ОБНОВЛЯЕМ UI СПИСКА УЛИК
             EvidenceUI ui = FindObjectOfType<EvidenceUI>();
@@ -31,9 +29,11 @@ public class EvidenceSystem : MonoBehaviour
             {
                 ui.UpdateUI();
             }
-            ObjectiveSystem.instance.CompleteObjective("Прочитать записку");
+            if (ObjectiveSystem.instance != null)
+            {
+                ObjectiveSystem.instance.CompleteObjective("Прочитать записку");
+            }
 
         }
-        else { Debug.Log("треш"); }
     }
 }

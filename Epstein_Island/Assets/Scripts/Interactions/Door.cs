@@ -146,6 +146,6 @@ public class Door : MonoBehaviour, IInteractable
         if (isLocked)
             return "Закрыто";
 
-        return isOpen ? "Закрыть" : "Открыть";
+        return isOpen ? "[E] Закрыть" : "[E] Открыть";
     }
 }

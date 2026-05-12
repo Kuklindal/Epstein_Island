@@ -3,64 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|c:\\users\\79025\\epstein_island\\epstein_island\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|c:\\users\\79025\\epstein_island\\epstein_island\\assets\\scripts\\interactions\\recorderpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\recorderpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|c:\\users\\79025\\epstein_island\\epstein_island\\assets\\scripts\\ui\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\powersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\powersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\clueinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\clueinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\generatorlever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\generatorlever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\evidencedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\evidencedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\events\\scareevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\events\\scareevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\evidencepickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\evidencepickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\evidencesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\evidencesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\evidencedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\evidencedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\objectivesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\objectivesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\events\\ieventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\events\\ieventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\highlightable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\highlightable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\evidencesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\evidencesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\evidenceviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\evidenceviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\oilpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\oilpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\interactions\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\interactionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\tutorialui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tutorialui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\enemy\\enemyfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Art\\Undeground\\Read me.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Art\\Undeground\\Read me.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\nature\\watermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nature\\watermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\interactions\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\goalvilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\goalvilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\objectivesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\objectivesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\evidenceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\evidenceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\ui\\highlightable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\highlightable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\systems\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\player\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,12 +103,16 @@
       "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\player\\footsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\footsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Interactions\\MorgueDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\interactions\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8FBA83-69BD-F50B-B225-87E5C846B6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactions\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Interactions\\MorgueEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\assets\\scripts\\interactions\\morguetray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\interactions\\morguetray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,8 +122,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EvidencePickup.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidencePickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\EvidencePickup.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidencePickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\EvidencePickup.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:53:23.164Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -131,176 +180,271 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RecorderPickup.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\RecorderPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\RecorderPickup.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\RecorderPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\RecorderPickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T03:41:17.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MorgueTray.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueTray.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\MorgueTray.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueTray.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\MorgueTray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T02:46:05.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScareEvent.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Events\\ScareEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Events\\ScareEvent.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Events\\ScareEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Events\\ScareEvent.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T09:44:22.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEventTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Events\\IEventTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Events\\IEventTrigger.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Events\\IEventTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Events\\IEventTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T09:31:24.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MorgueEvent.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\MorgueEvent.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\MorgueEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T09:28:37.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MorgueDoor.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\MorgueDoor.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\MorgueDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactions\\MorgueDoor.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T09:27:35.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EvidenceViewer.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\EvidenceViewer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\EvidenceViewer.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\EvidenceViewer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\EvidenceViewer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T08:16:02.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerSystem.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\PowerSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PowerSystem.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\PowerSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\PowerSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:18:07.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneratorLever.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\GeneratorLever.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\GeneratorLever.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\GeneratorLever.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\GeneratorLever.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwDcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:17:09.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OilPickup.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\OilPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\OilPickup.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\OilPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\OilPickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:16:28.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Read me.txt",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Art\\Undeground\\Read me.txt",
+              "RelativeDocumentMoniker": "Assets\\Art\\Undeground\\Read me.txt",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Art\\Undeground\\Read me.txt",
+              "RelativeToolTip": "Assets\\Art\\Undeground\\Read me.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-10T07:00:45.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GoalVilla.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\GoalVilla.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GoalVilla.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\GoalVilla.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\GoalVilla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:21:21.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuestManager.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Systems\\QuestManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\QuestManager.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Systems\\QuestManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\QuestManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T06:30:04.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EvidenceUI.cs",
+              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\EvidenceUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\EvidenceUI.cs",
+              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\EvidenceUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\EvidenceUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T06:06:54.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T06:05:38.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T06:05:38.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EvidenceData.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidenceData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\EvidenceData.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidenceData.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\EvidenceData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T06:00:02.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "EvidenceSystem.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidenceSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\EvidenceSystem.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidenceSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\EvidenceSystem.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T05:59:27.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ObjectiveSystem.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\ObjectiveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ObjectiveSystem.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\ObjectiveSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ObjectiveSystem.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswDwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T05:41:13.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Highlightable.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\Highlightable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Highlightable.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\Highlightable.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Highlightable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T04:35:54.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "Note.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\Note.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Note.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\Note.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Note.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwG0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:14:15.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:14:15.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TutorialUI.cs",
-              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\TutorialUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TutorialUI.cs",
-              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\UI\\TutorialUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\TutorialUI.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T08:44:05.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FootSteps.cs",
-              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Player\\FootSteps.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\FootSteps.cs",
-              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Player\\FootSteps.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\FootSteps.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA1wCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T07:40:08.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EvidencePickup.cs",
-              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidencePickup.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\EvidencePickup.cs",
-              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\EvidencePickup.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\EvidencePickup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T04:53:23.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClueInteractable.cs",
-              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\ClueInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ClueInteractable.cs",
-              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\ClueInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\ClueInteractable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T04:34:57.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "WaterMovement.cs",
-              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Nature\\WaterMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Nature\\WaterMovement.cs",
-              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Nature\\WaterMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Nature\\WaterMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T09:41:11.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EnemyFSM.cs",
-              "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Enemy\\EnemyFSM.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyFSM.cs",
-              "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Enemy\\EnemyFSM.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyFSM.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAADwv1QAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T07:33:29.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "PickupItem.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\PickupItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PickupItem.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\PickupItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\PickupItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T06:04:55.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "InventorySystem.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\InventorySystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventorySystem.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\InventorySystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventorySystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T06:01:02.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Inventory\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemData.cs",
@@ -312,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "MouseLook.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Player\\MouseLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MouseLook.cs",
@@ -324,31 +468,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\Door.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\Door.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interactions\\Door.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwJQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T05:05:48.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "InteractionSystem.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\InteractionSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactions\\InteractionSystem.cs",
               "ToolTip": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Interactions\\InteractionSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interactions\\InteractionSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T05:00:40.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\79025\\Epstein_Island\\Epstein_Island\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",

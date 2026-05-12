@@ -12,7 +12,7 @@ public class EvidenceData : ScriptableObject
     public string evidenceID;
     public string evidenceName;
     public EvidenceType type;
-
+    public Sprite evidenceImage;
     [TextArea]
     public string description; // 🔥 добавь это
 }
