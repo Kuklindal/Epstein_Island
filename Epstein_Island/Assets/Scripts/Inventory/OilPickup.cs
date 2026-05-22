@@ -12,15 +12,15 @@ public class OilPickup : MonoBehaviour, IInteractable
         {
             inventory.AddItem(oilItem);
             Destroy(gameObject);
-
-            UIManager.instance.ShowMessage("Смазка найдена");
-
+            GoalUndeground.instance.CompleteObjective("Найти смазку");
+            //UIManager.instance.ShowMessage("Смазка найдена");
             
+
         }
     }
 
     public string GetPromptText()
     {
-        return "Взять смазку";
+        return "[E] Взять смазку";
     }
 }

@@ -31,14 +31,17 @@ public class PickupItem : MonoBehaviour, IInteractable
         }
 
         inventory.AddItem(item);
+        if (item.itemName == "Ключ от подвала")
+            GoalVilla.instance.CompleteObjective("Найти ключ");
+        if (item.itemName == "Ключ от архива")
+        {
+            GoalUndeground.instance.CompleteObjective("Взять ключ");
+        }
         Destroy(gameObject);
     }
 
     public string GetPromptText()
     {
-        if (item == null)
-            return "Pick up item";
-
-        return "Pick up " + item.itemName;
+        return "[E] Взять ключ";
     }
 }

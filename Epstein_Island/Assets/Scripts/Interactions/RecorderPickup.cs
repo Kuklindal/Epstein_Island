@@ -10,23 +10,10 @@ public class RecorderPickup : MonoBehaviour, IInteractable
     {
         if (pickedUp)
             return;
-
+        GoalUndeground.instance.CompleteObjective("Прослушать диктофон");
         pickedUp = true;
-
-        //// сообщение
-        //UIManager.instance.ShowMessage(
-        //    "Вы нашли диктофон..."
-        //);
-
-        // воспроизводим запись
         recording.Play();
 
-        //// новая цель
-        //ObjectiveSystem.instance.SetObjective(
-        //    "Найти архив B-12"
-        //);
-
-        // убрать объект
         Destroy(gameObject);
     }
 

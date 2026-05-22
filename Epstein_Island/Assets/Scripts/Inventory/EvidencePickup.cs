@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class EvidencePickup : MonoBehaviour, IInteractable
 {
@@ -23,6 +24,11 @@ public class EvidencePickup : MonoBehaviour, IInteractable
 
         // показываем документ
         viewer.ShowEvidence(evidence.evidenceImage);
+        if (evidence.evidenceName == "Медицинский отчёт")
+        {
+            GoalUndeground.instance.CompleteObjective("Прочитать записку");
+            GoalUndeground.instance.CompleteObjective("Найти морг");
+        }
 
         // удаляем объект со сцены
         Destroy(transform.root.gameObject);

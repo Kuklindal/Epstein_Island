@@ -31,6 +31,7 @@ public class VentDoor : MonoBehaviour, IInteractable
         }
         else
         {
+            
             ventDoor.localRotation = Quaternion.Slerp(
                 ventDoor.localRotation,
                 closedRot,
@@ -41,11 +42,20 @@ public class VentDoor : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        isOpen = !isOpen;
+        if (!isOpen)
+        {
+            isOpen = true;
+            GoalUndeground.instance.CompleteObjective("Найти и открыть вентиляцию");
+            ventDoor.GetComponent<Collider>().enabled = false;
+        }
+        else
+        {
+            isOpen = false;
+        }
     }
 
     public string GetPromptText()
     {
-        return isOpen ? "Закрыть" : "Открыть вентиляцию";
+        return isOpen ? "[E] Закрыть" : "[E] Открыть вентиляцию";
     }
 }

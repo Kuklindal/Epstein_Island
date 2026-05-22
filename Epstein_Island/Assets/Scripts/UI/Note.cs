@@ -5,7 +5,7 @@ public class Note : MonoBehaviour, IInteractable
 {
     [Header("UI")]
     public GameObject noteUI;
-    public TextMeshProUGUI noteText; // текст внутри UI
+    public TextMeshProUGUI noteText;
 
     [Header("Data")]
     public EvidenceData evidence;
@@ -20,11 +20,6 @@ public class Note : MonoBehaviour, IInteractable
     void Start()
     {
         evidenceSystem = FindObjectOfType<EvidenceSystem>();
-
-        if (evidenceSystem == null)
-        {
-            Debug.LogError("EvidenceSystem NOT FOUND on scene!");
-        }
 
         if (noteUI != null)
         {
@@ -49,7 +44,8 @@ public class Note : MonoBehaviour, IInteractable
     {
         if (!isOpen) return;
 
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.E) ||
+            Input.GetKeyDown(KeyCode.Escape))
         {
             CloseNote();
         }
@@ -57,13 +53,8 @@ public class Note : MonoBehaviour, IInteractable
 
     void OpenNote()
     {
-        if (noteUI == null)
-        {
-            Debug.LogError("Note UI is not assigned!");
-            return;
-        }
-
         noteUI.SetActive(true);
+
         Time.timeScale = 0f;
 
         Cursor.lockState = CursorLockMode.None;
@@ -72,11 +63,9 @@ public class Note : MonoBehaviour, IInteractable
         isOpen = true;
         isUIOpen = true;
 
-        // 🔥 скрываем задачи
         if (ObjectiveSystem.instance != null)
             ObjectiveSystem.instance.ShowObjectives(false);
 
-        // 🔥 подставляем текст из EvidenceData
         if (noteText != null && evidence != null)
         {
             noteText.text = evidence.description;
@@ -85,9 +74,10 @@ public class Note : MonoBehaviour, IInteractable
 
     void CloseNote()
     {
-        if (noteUI != null)
-            noteUI.SetActive(false);
+        // СНАЧАЛА закрываем UI
+        noteUI.SetActive(false);
 
+        // ВОЗВРАЩАЕМ игру
         Time.timeScale = 1f;
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -96,22 +86,21 @@ public class Note : MonoBehaviour, IInteractable
         isOpen = false;
         isUIOpen = false;
 
-        // 🔥 возвращаем задачи
         if (ObjectiveSystem.instance != null)
             ObjectiveSystem.instance.ShowObjectives(true);
 
-        // 🔥 добавляем улику только 1 раз
+        // добавляем улику
         if (!isCollected)
         {
             isCollected = true;
+
             if (evidenceSystem != null && evidence != null)
             {
-
                 evidenceSystem.AddEvidence(evidence);
-
             }
-
-            Destroy(gameObject);
         }
+
+        // УДАЛЯЕМ записку из мира
+        gameObject.SetActive(false);
     }
 }

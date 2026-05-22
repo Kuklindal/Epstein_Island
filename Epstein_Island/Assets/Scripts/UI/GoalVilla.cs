@@ -19,6 +19,10 @@ public class GoalVilla : MonoBehaviour
     void Start()
     {
         AddObjective("Исследовать виллу");
+        AddObjective("Найти секретную дверь");
+        AddObjective("Взломать секретную дверь");
+        AddObjective("Найти ключ");
+        AddObjective("Найти дверь в подвал");
     }
 
     public void AddObjective(string text)

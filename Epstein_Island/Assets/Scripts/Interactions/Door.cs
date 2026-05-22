@@ -58,6 +58,7 @@ public class Door : MonoBehaviour, IInteractable
         // 🔧 ВЗЛОМ
         if (requiresHack)
         {
+            GoalVilla.instance.CompleteObjective("Найти секретную дверь");
             HackDoor();
             return;
         }
@@ -109,6 +110,7 @@ public class Door : MonoBehaviour, IInteractable
 
         hackUI.onSuccess = () =>
         {
+            GoalVilla.instance.CompleteObjective("Взломать секретную дверь");
             requiresHack = false;
             isLocked = false;
 
@@ -135,13 +137,13 @@ public class Door : MonoBehaviour, IInteractable
         if (requiresKey)
         {
             if (inventory != null && inventory.HasItem(requiredKey))
-                return "Открыть (ключ)";
+                return "[E] Открыть (ключ)";
             else
                 return "Нужен ключ";
         }
 
         if (requiresHack)
-            return "Взломать";
+            return "[E] Взломать";
 
         if (isLocked)
             return "Закрыто";

@@ -49,6 +49,6 @@ public class MorgueTray : MonoBehaviour, IInteractable
 
     public string GetPromptText()
     {
-        return isOpen ? "Задвинуть кушетку" : "Выдвинуть кушетку";
+        return isOpen ? "[E] Задвинуть кушетку" : "[E] Выдвинуть кушетку";
     }
 }

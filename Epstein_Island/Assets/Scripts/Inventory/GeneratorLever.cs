@@ -41,8 +41,8 @@ public class GeneratorLever : MonoBehaviour, IInteractable
             }
             else
             {
-                UIManager.instance.ShowMessage("Рычаг заклинило. Нужно найти смазку.");
-
+                GoalUndeground.instance.AddObjective("Найти смазку");
+                UIManager.instance.ShowMessage("Рычаг заклинило");
                 return;
             }
         }
@@ -55,7 +55,7 @@ public class GeneratorLever : MonoBehaviour, IInteractable
         isActivated = true;
         generatorAudio.Play();
         //UIManager.instance.ShowMessage("Питание восстановлено");
-
+        GoalUndeground.instance.CompleteObjective("Включить генератор");
         FindObjectOfType<PowerSystem>().RestorePower();
     }
 
@@ -78,7 +78,7 @@ public class GeneratorLever : MonoBehaviour, IInteractable
         if (!isLubricated)
         {
             if (inventory != null && inventory.HasItem(lubricantItem))
-                return "Смазать рычаг";
+                return "[E] Смазать рычаг";
 
             return "Рычаг заклинило";
         }

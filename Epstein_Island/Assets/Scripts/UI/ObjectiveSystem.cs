@@ -17,7 +17,7 @@ public class ObjectiveSystem : MonoBehaviour
         instance = this;
         ObjectiveSystem.instance.AddObjective("Найти записку");      // 0
         ObjectiveSystem.instance.AddObjective("Прочитать записку"); // 1
-        ObjectiveSystem.instance.AddObjective("Покинуть пляж");
+        ObjectiveSystem.instance.AddObjective("Попасть в виллу");
     }
 
     public void AddObjective(string text)

@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using TMPro;
+using UnityEngine;
 
 public class InteractionSystem : MonoBehaviour
 {
@@ -7,23 +7,33 @@ public class InteractionSystem : MonoBehaviour
     public LayerMask interactableLayer;
 
     public GameObject interactionPrompt;
-    public Text promptText;
-    Highlightable currentHighlight;
+    public TextMeshProUGUI promptText;
+
+    private Highlightable currentHighlight;
+
+    private bool promptVisible = false;
+
     void Update()
     {
         if (Note.isUIOpen)
         {
-            interactionPrompt.SetActive(false);
+            HidePrompt();
             return;
         }
+
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        Debug.DrawRay(transform.position, transform.forward * interactionDistance, Color.red);
+        Debug.DrawRay(transform.position,
+            transform.forward * interactionDistance,
+            Color.red);
 
-        if (Physics.Raycast(ray, out hit, interactionDistance, interactableLayer))
+        if (Physics.Raycast(ray, out hit,
+            interactionDistance,
+            interactableLayer))
         {
-            Highlightable highlight = hit.collider.GetComponentInParent<Highlightable>();
+            Highlightable highlight =
+                hit.collider.GetComponentInParent<Highlightable>();
 
             if (highlight != null)
             {
@@ -36,13 +46,13 @@ public class InteractionSystem : MonoBehaviour
                     currentHighlight = highlight;
                 }
             }
-            IInteractable interactable = hit.collider.GetComponentInParent<IInteractable>();
+
+            IInteractable interactable =
+                hit.collider.GetComponentInParent<IInteractable>();
 
             if (interactable != null)
             {
-                interactionPrompt.SetActive(true);
-
-                promptText.text = interactable.GetPromptText();
+                ShowPrompt(interactable.GetPromptText());
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -52,15 +62,33 @@ public class InteractionSystem : MonoBehaviour
                 return;
             }
         }
-        else
+
+        if (currentHighlight != null)
         {
-            if (currentHighlight != null)
-            {
-                currentHighlight.UnHighlight();
-                currentHighlight = null;
-            }
+            currentHighlight.UnHighlight();
+            currentHighlight = null;
         }
 
-        interactionPrompt.SetActive(false);
+        HidePrompt();
+    }
+
+    void ShowPrompt(string text)
+    {
+        if (!promptVisible)
+        {
+            interactionPrompt.SetActive(true);
+            promptVisible = true;
+        }
+
+        promptText.text = text;
+    }
+
+    void HidePrompt()
+    {
+        if (promptVisible)
+        {
+            interactionPrompt.SetActive(false);
+            promptVisible = false;
+        }
     }
 }

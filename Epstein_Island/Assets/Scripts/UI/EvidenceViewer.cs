@@ -24,7 +24,7 @@ public class EvidenceViewer : MonoBehaviour
 
     void Update()
     {
-        if (panel.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        if (panel.activeSelf && Input.GetKeyDown(KeyCode.E))
         {
             panel.SetActive(false);
 
