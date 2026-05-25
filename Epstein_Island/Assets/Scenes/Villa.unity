@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18280181, g: 0.16131873, b: 0.2191424, a: 1}
+  m_IndirectSpecularColor: {r: 0.11969949, g: 0.112877935, b: 0.1835437, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -32317,7 +32317,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   interactionPrompt: {fileID: 1896369007}
-  promptText: {fileID: 2072755330}
+  promptText: {fileID: 1841161086}
 --- !u!114 &808788053
 MonoBehaviour:
   m_ObjectHideFlags: 0

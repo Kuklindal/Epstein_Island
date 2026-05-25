@@ -6,7 +6,7 @@ public class HackMinigame : MonoBehaviour
     public RectTransform slider;
     public RectTransform targetZone;
 
-    public float speed = 1.5f;
+    public float speed = 1f;
     public int totalStages = 3;
 
     private RectTransform bar;
